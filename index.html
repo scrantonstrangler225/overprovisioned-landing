@@ -204,14 +204,35 @@
     <input id="role" name="entry.5566778899" type="text" placeholder="e.g. DevOps Lead, CTO" style="width: 100%; padding: 0.5rem 0.75rem; margin-bottom: 1rem; border: 1px solid #475569; border-radius: 6px; font-size: 1rem; background-color: #0f172a; color: #f8fafc;">
 
     <label for="cloud" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #f8fafc;">Primary Cloud Platform</label>
-    <select id="cloud" name="entry.3344556677" required style="width: 100%; padding: 0.5rem 0.75rem; margin-bottom: 1rem; border: 1px solid #475569; border-radius: 6px; font-size: 1rem; background-color: #0f172a; color: #f8fafc;">
-      <option value="" disabled selected>Select your platform</option>
-      <option value="AWS">AWS</option>
-      <option value="Azure">Azure</option>
-      <option value="Google Cloud">Google Cloud</option>
-      <option value="Multi-Cloud">Multi-Cloud</option>
-      <option value="Other">Other</option>
-    </select>
+    <fieldset style="margin-bottom: 1.5rem; border: none; padding: 0;">
+  <legend style="font-weight: 600; color: #f8fafc; margin-bottom: 0.5rem;">Cloud Providers You Use</legend>
+
+  <label style="display: block; margin-bottom: 0.25rem;">
+    <input type="checkbox" name="entry.3344556677" value="AWS" style="margin-right: 0.5rem;">
+    AWS
+  </label>
+
+  <label style="display: block; margin-bottom: 0.25rem;">
+    <input type="checkbox" name="entry.3344556677" value="Azure" style="margin-right: 0.5rem;">
+    Azure
+  </label>
+
+  <label style="display: block; margin-bottom: 0.25rem;">
+    <input type="checkbox" name="entry.3344556677" value="Google Cloud" style="margin-right: 0.5rem;">
+    Google Cloud
+  </label>
+
+  <label style="display: block; margin-bottom: 0.25rem;">
+    <input type="checkbox" name="entry.3344556677" value="Linode" style="margin-right: 0.5rem;">
+    Linode
+  </label>
+
+  <label style="display: block; margin-bottom: 0.25rem;">
+    <input type="checkbox" name="entry.3344556677" value="Other" style="margin-right: 0.5rem;">
+    Other
+  </label>
+</fieldset>
+
 
     <label for="challenges" style="display: block; margin-bottom: 0.5rem; font-weight: 600; color: #f8fafc;">Main cloud optimization challenges</label>
     <textarea id="challenges" name="entry.6677889900" placeholder="Briefly describe your pain points…" style="width: 100%; padding: 0.5rem 0.75rem; margin-bottom: 1rem; border: 1px solid #475569; border-radius: 6px; font-size: 1rem; background-color: #0f172a; color: #f8fafc; resize: vertical; min-height: 100px;"></textarea>
